@@ -37,7 +37,7 @@
                                                     </div>
                                             
                                         
-                           </div>
+                          
 
                                     <div class="card-body collapse show" >
                                         <div class="activity">
@@ -56,14 +56,14 @@
                                             
                                         </div>
                                     </div>
-                           <?php 
-                           
-                        }
-                         
-                         ?>
+                                        <?php 
+                                        
+                                        }
+                                        
+                                        ?>
 
 
-
+                            </div>
 
                         </div>
 
