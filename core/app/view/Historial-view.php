@@ -86,11 +86,19 @@
                                                                              
 
                                                                         </div> 
+                                                                            <?php
+                                                                                if($historial->imagen!=null || $historial->imagen!=""){
 
+                                                                               
+                                                                            ?>
                                                                                 <div class="d-flex">
-                                                                                <a href="https://mecgo.s3.us-east-2.amazonaws.com/IMG_20210518_093952.jpg">
-                                                                                    <img  class="wd-100" src="https://mecgo.s3.us-east-2.amazonaws.com/IMG_20210518_093952.jpg"></a>
-                                                                                </div> 
+                                                                                    <a href="<?php echo "https://mecgo.s3.us-east-2.amazonaws.com/".$historial->imagen; ?>">
+                                                                                    <img  class="wd-100" src="<?php  echo "https://mecgo.s3.us-east-2.amazonaws.com/".$historial->imagen; ?>"></a>
+                                                                                </div>
+
+                                                                            <?php
+                                                                                }   
+                                                                            ?>
                                                                                           
                                                                             
                                                                     </div>
