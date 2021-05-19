@@ -24,7 +24,7 @@
                            
                            ?>
                               <div class="alert alert-primary fade show" role="alert">
-                                <?php echo $placa->placa."  ".$Tempario->descripcion; ?>
+                                <?php echo "Ver Trabajos para Vehiculo  --->  ".$placa->placa ?>
                                  <a class="badge badge-success pull-right">
 
                                  <form action="index.php?view=Historial" method="post">
