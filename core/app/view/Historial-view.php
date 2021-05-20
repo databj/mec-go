@@ -29,7 +29,7 @@
                                                         <a class="badge badge-success pull-right">
 
                                                       
-                                                        <?php echo $i;?><button  class="btn btn-primary" data-toggle="collapse" href="<?php echo "#multiCollapseExample".$i; ?>" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">ver mas</button>  
+                                                      <button  class="btn btn-primary" data-toggle="collapse" href="<?php echo "#multiCollapseExample".$i; ?>" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">ver mas</button>  
                                                         
                                                         </a>
 

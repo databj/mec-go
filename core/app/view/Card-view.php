@@ -29,7 +29,7 @@
 
                                  <form action="index.php?view=Historial" method="post">
                                  <input type="hidden" name="id" value=<?php echo $procesos->id;?>>
-                                 <input type="hidden" name="view" value=<?php echo $_GET["view"];?>>
+                                
                                  <button class="dropdown-item" type="submit"><i class="fa fa-eye"></i> Ver Historial</button>  
                                  </form>
                                  </a>
