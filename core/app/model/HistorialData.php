@@ -59,7 +59,26 @@ class HistorialData {
 
 	}
 
+	public static function contadorBien($id_diag){
+		$sql = "Select count(estado) as total from historial where estado=1 and id_diag=$id_diag";
+		$query = Executor::doit($sql);
+		return Model::one($query[0],new ProcesoData());
 
+	}
+
+	public static function contadorUrgente($id_diag){
+		$sql = "Select count(estado) as total from historial where estado=3 and id_diag=$id_diag";
+		$query = Executor::doit($sql);
+		return Model::one($query[0],new ProcesoData());
+
+	}
+
+	public static function contadorPronto($id_diag){
+		$sql = "Select count(estado) as total from historial where estado=2 and id_diag=$id_diag";
+		$query = Executor::doit($sql);
+		return Model::one($query[0],new ProcesoData());
+
+	}
 
 
 	public static function getAll(){//OBTENER TODOS LOS DATOS DE LA TABLA "historial"
