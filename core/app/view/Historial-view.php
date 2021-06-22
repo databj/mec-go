@@ -250,6 +250,8 @@
                                                                                                                 <span class="badge bg-soft-danger  tx-uppercase">URGENTE</span> 
                                                                                                                 <span class="badge bg-soft-success  tx-uppercase">BIEN</span>
                                                                                                                 <span class="badge bg-soft-warning  tx-uppercase">PRONTO</span>
+
+                                                                                                                
                                                                                                             </div>
 
                                                                                                         
