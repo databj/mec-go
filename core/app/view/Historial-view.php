@@ -100,8 +100,8 @@
                                                                                             
                                                                                             ?>
                                                                                                 <div class="d-flex">
-                                                                                                    <a href="<?php echo "https://mecgo2.s3.us-east-2.amazonaws.com/".$historial->imagen; ?>">
-                                                                                                    <img  class="wd-100" src="<?php  echo "https://mecgo2.s3.us-east-2.amazonaws.com/".$historial->imagen; ?>"></a>
+                                                                                                    <a href="<?php echo "https://mecgo3.s3.us-east-2.amazonaws.com/".$historial->imagen; ?>">
+                                                                                                    <img  class="wd-100" src="<?php  echo "https://mecgo3.s3.us-east-2.amazonaws.com/".$historial->imagen; ?>"></a>
                                                                                                 </div>
 
                                                                                             <?php
@@ -182,8 +182,8 @@
                                                                                                     
                                                                                                     ?>
                                                                                                         <div class="d-flex">
-                                                                                                            <a href="<?php echo "https://mecgo22.s3.us-east-2.amazonaws.com/".$historial->imagen; ?>">
-                                                                                                            <img  class="wd-100" src="<?php  echo "https://mecgo22.s3.us-east-2.amazonaws.com/".$historial->imagen; ?>"></a>
+                                                                                                            <a href="<?php echo "https://mecgo32.s3.us-east-2.amazonaws.com/".$historial->imagen; ?>">
+                                                                                                            <img  class="wd-100" src="<?php  echo "https://mecgo32.s3.us-east-2.amazonaws.com/".$historial->imagen; ?>"></a>
                                                                                                         </div>
 
                                                                                                     <?php
@@ -245,7 +245,8 @@
                                                                                                             
                                                                                                             <div class="col-md-12 col-lg-8 col-xl-9" >
                                                                                                             
-
+                                                                                                            <?php
+                                                                                                            ?>
                                                                                                                 <span class="badge bg-soft-primary tx-uppercase">Design</span> 
                                                                                                                 <span class="badge bg-soft-danger  tx-uppercase">URGENTE</span> 
                                                                                                                 <span class="badge bg-soft-success  tx-uppercase">BIEN</span>
@@ -273,8 +274,8 @@
                                                                                                     
                                                                                                     ?>
                                                                                                         <div class="d-flex">
-                                                                                                            <a href="<?php echo "https://mecgo2.s3.us-east-2.amazonaws.com/".$historial->imagen; ?>">
-                                                                                                            <img  class="wd-100" src="<?php  echo "https://mecgo2.s3.us-east-2.amazonaws.com/".$historial->imagen; ?>"></a>
+                                                                                                            <a href="<?php echo "https://mecgo3.s3.us-east-2.amazonaws.com/".$historial->imagen; ?>">
+                                                                                                            <img  class="wd-100" src="<?php  echo "https://mecgo3.s3.us-east-2.amazonaws.com/".$historial->imagen; ?>"></a>
                                                                                                         </div>
 
                                                                                                     <?php
