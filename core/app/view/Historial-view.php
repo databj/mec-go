@@ -69,7 +69,7 @@
                                                             <h6 class="tx-dark tx-20 mb-0"><?php echo $historial->descripcion; ?></h6>
                                                             <span class="small"><?php echo $historial->fecha; ?></span>
                                                         </div>
-                                                        <p class="mt-2 tx-12"><?php echo $historial->descripcion; ?></p>
+                                                        <p class="mt-2 tx-12"><?php //echo $historial->descripcion; ?></p>
 
 
                                                         <div class="col-md-12 col-lg-8 col-xl-9">
@@ -125,7 +125,7 @@
                                             ?>
                                                 <div class="d-flex">
                                                     <a href="<?php echo "https://mecgo3.s3.us-east-2.amazonaws.com/" . $historial->imagen; ?>">
-                                                        <img class="wd-100" src="<?php echo "https://mecgo3.s3.us-east-2.amazonaws.com/" . $historial->imagen; ?>"></a>
+                                                        <img class="wd-300" src="<?php echo "https://mecgo3.s3.us-east-2.amazonaws.com/" . $historial->imagen; ?>"></a>
                                                 </div>
 
                                             <?php
