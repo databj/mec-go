@@ -87,7 +87,7 @@ class ProcesoData {
 	}
 
 	public static function getByEmpresa($id){
-		$sql = "select * from proceso where id_empresa='".$id."'";
+		$sql = "select * from proceso where id_empresa='".$id."' and estado!='FINALIZADO'";
 		$query = Executor::doit($sql);
 		return Model::many($query[0],new ProcesoData());
 	}
